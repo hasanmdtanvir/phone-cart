@@ -16,6 +16,10 @@ h5 {
     text-align: center;
 }
 
+.product {
+    width: 100%;
+}
+
 .cart {
     margin-top: 50px;
     /* background-color: yellow; */
@@ -24,9 +28,10 @@ h5 {
     height: 450px;
     border-radius: 10px;
     display: inline-block;
-    margin-right: 10px;
+    margin-right: 20px;
     vertical-align: top;
     position: relative;
+    text-align: left;
 }
 
 .discount {
@@ -70,4 +75,11 @@ h5 {
 #without-discount {
     /* display: none; */
     visibility: hidden;
+}
+
+.previous-price {
+    font-size: 14px;
+    color: gray;
+    text-decoration: line-through;
+    margin-left: 10px;
 }
